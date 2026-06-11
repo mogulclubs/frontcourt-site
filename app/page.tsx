@@ -50,8 +50,8 @@ export default function HomePage() {
         <header className="topbar">
           <a className="brand" href="/" aria-label="Frontcourt.ai — Intelligence for sports facilities">
             <svg className="brand-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor">
-              <path d="M28 8 C 18 12 12 22 12 32 C 12 42 18 52 28 56 Z" />
-              <path d="M36 8 C 46 12 52 22 52 32 C 52 42 46 52 36 56 Z" />
+              <path d="M31 8 C 18 12 12 22 12 32 C 12 42 18 52 31 56 Z" />
+              <path d="M33 8 C 46 12 52 22 52 32 C 52 42 46 52 33 56 Z" />
             </svg>
             <span className="brand-divider" aria-hidden="true" />
             <span className="brand-text">
