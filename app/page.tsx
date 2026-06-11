@@ -48,9 +48,17 @@ export default function HomePage() {
     <main className="page">
       <div className="container">
         <header className="topbar">
-          <div className="brand">
-            Frontcourt<span className="dot">.</span><span className="tld">ai</span>
-          </div>
+          <a className="brand" href="/" aria-label="Frontcourt.ai — Intelligence for sports facilities">
+            <svg className="brand-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor">
+              <path d="M28 8 C 18 12 12 22 12 32 C 12 42 18 52 28 56 Z" />
+              <path d="M36 8 C 46 12 52 22 52 32 C 52 42 46 52 36 56 Z" />
+            </svg>
+            <span className="brand-divider" aria-hidden="true" />
+            <span className="brand-text">
+              <span className="brand-wordmark">Frontcourt<span className="brand-tld">.ai</span></span>
+              <span className="brand-tagline">Intelligence for sports facilities</span>
+            </span>
+          </a>
           <div className="topbar-meta">Est. 2026 · Oshawa, ON</div>
         </header>
 
@@ -107,7 +115,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <label htmlFor="message">What are you trying to solve?</label>
-                  <textarea id="message" name="message" className="textarea" placeholder="Tell us about your facility, what made you reach out, or what you're trying to solve." maxLength={2000} />
+                  <textarea id="message" name="message" className="textarea" placeholder="Tell us about your facility, what made you reach out, or what you are trying to solve." maxLength={2000} />
                 </div>
                 <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, overflow: 'hidden' }}>
                   <label htmlFor="company_size_bot">Company size (do not fill)</label>
